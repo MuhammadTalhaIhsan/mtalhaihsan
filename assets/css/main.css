@@ -2823,10 +2823,10 @@ input, select, textarea {
 					margin: 1.25em 0 0 0;
 				}
 				body:not(.is-touch) .tiles article:hover .content {
-					opacity: 0;
+					display: none;
 				}
-				body:not(.is-touch) .tiles article:hover .content {
-					opacity: 0;
+				body.is-touch .tiles article .content {
+					display: none;
 				}
 
 		}
