@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Porous Material Simulation</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Menu -->
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1 class="project-heading">Porous Material Simulation</h1>
+							<span class="image main"><img src="images/FoamGlass_P10.gif" alt="Your Browser could&#39;t load this image." /></span>
+							<span class="image main"><img src="images/FoamGlass_P30.gif" alt="Your Browser could&#39;t load this image." /></span>
+							<span class="image main"><img src="images/FoamGlass_P50.gif" alt="Your Browser could&#39;t load this image." /></span>
+							<span class="image main"><img src="images/FoamGlass_ResultE.png" alt="Your Browser could&#39;t load this image." /></span>
+							<span class="image main"><img src="images/FoamGlass_ResultY.png" alt="Your Browser could&#39;t load this image." /></span>
+							<h2 class="project-page">Skills :</h2>
+							<div class="skills-layout-project-page">
+								<div class="skills-container"><img class="skills-icons" src="icons/abq.png" alt="">Abaqus</div>
+								<div class="skills-container"><img class="skills-icons" src="icons/Matlab_Logo.png" alt="">Matlab</div>
+								<div class="skills-container"><img class="skills-icons" src="icons/python-svgrepo-com.png" alt="">Python</div>
+							</div>
+						    <h2 class="project-page">Description :</h2> 
+							<p class="project-page-p">Foamed glass is a promising material gaining popularity in the construction industry for its excellent insulation properties and lighter weight compared to traditional glass. What makes it even more attractive is that it’s made from recycled waste glass, which helps reduce pollution and greenhouse gas emissions, making it more environmentally friendly. In this study, we’re focusing on how the material’s structure—particularly the porosity and the distribution of pores—affects its mechanical properties. By simulating different levels of porosity, we aim to better understand how these factors influence the material’s strength, flexibility, and overall suitability for use in construction, where both performance and sustainability are key.</p>
+							<p class="project-page-p">In the modeling phase, MATLAB was used to generate geometries with porous shapes, where the pores were represented as spheres with varying sizes. These pores were randomly distributed within a specified volume using the Monte Carlo technique, which helped minimize their overlap and create more realistic distributions. The models were created for three different porosity levels—10%, 30%, and 50%—to study how varying pore densities affect the material’s mechanical behavior. This approach allowed for a deeper understanding of how different porosity levels could influence the performance of foamed glass.</p>
+							<p class="project-page-p">Once the geometries were created, they were imported into Abaqus through a Python script, which automated the preprocessing for mechanical analysis. Boundary conditions were applied to specific nodes to evaluate the material’s response to a 20% deformation. By recording the reaction force at the constrained node and using the surface area, the stress was calculated. The stress-strain relationship was then analyzed to determine the material’s elastic modulus, shedding light on how porosity affects stiffness and deformation. The findings showed that higher porosity reduced stiffness due to the presence of air gaps, which weakened the material's mechanical structure. These insights are valuable for optimizing foamed glass for use in construction, ensuring it meets both performance and sustainability goals.</p>
+							<div id="footer-substitute">
+								<div class="footer-divider">
+									<h2>Get in Touch</h2>
+									<div class="contact-icons-container">
+										<a href="tel:+923365565994"><img class="contact-icons" src="icons/phone-call-icon.svg" alt=""></a>
+										<a href="mailto:mohammadtalhaawan@gmail.com"><img class="contact-icons" src="icons/envelope-solid.svg" alt=""></a>
+										<a href="https://www.linkedin.com/in/m-talha-ihsan-me2024/"><img class="contact-icons" src="icons/linkedin-in-brands-solid.svg" alt=""></a>
+										<a href="https://www.fiverr.com/s/vvEl2VZ"><img class="contact-icons" src="icons/fiverr-svgrepo-com.svg" alt=""></a>
+										<a href="https://www.upwork.com/freelancers/~01e3d6f15cfae0571f?mp_source=share"><img class="contact-icons" src="icons/upwork-svgrepo-com-cropped.svg" alt=""></a>
+										<a href="https://github.com/MuhammadTalhaIhsan"><img class="contact-icons" src="icons/github-logo_icon-icons.com_73546.svg" alt=""></a>
+									</div>
+									<p>Website designed and developed by me using template provided by HTML5 UP &copy; 2024. All rights reserved.</p>
+								</div>
+							</div>
+						</div>	
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
